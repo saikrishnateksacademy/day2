@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router();
 
-const userRouter = require('./user.js')
-const authRouter = require('./auth.js')
-const adminRouter = require('./admin.js')
+const userRouter = require('./user.rout.js')
+const authRouter = require('./auth.rout.js')
+const adminRouter = require('./admin.rout.js')
 
 router.use( userRouter);
 router.use( authRouter);
